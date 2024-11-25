@@ -1,6 +1,6 @@
 # yuriis-template-react-ts
 
-[DEMO LINK](https://KrivorotkoYurii.github.io/imrev-test-task/)
+
 
 # Щоб запустити код локально
   1. Склонуйте репозиторій на свій комп'ютер.

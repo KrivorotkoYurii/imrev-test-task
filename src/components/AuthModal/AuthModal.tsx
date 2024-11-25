@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Імпортуємо useNavigate
+import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import styles from './AuthModal.module.scss';
 
@@ -14,7 +14,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const { login } = useAuth();
-  const navigate = useNavigate(); // Ініціалізуємо navigate
+  const navigate = useNavigate();
 
   const handleLogin = async () => {
     setError(null);
@@ -42,8 +42,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
       const data = await response.json();
 
       if (response.ok && data.success) {
-        login(data.result.access_token); // Виклик функції login з токеном
-        navigate('/home'); // Перенаправлення на /home
+        login(data.result.access_token);
+        navigate('/');
         onClose();
       } else {
         setError(data.message || 'Невірний логін чи пароль');
