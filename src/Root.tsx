@@ -22,9 +22,9 @@ export const Root = () => {
             <Navigate to={isAuthenticated ? '/home' : '/login'} replace />
           }
         />
-        <Route path="login" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route
-          path="home"
+          path="/home"
           element={
             <ProtectedRoute isAuthenticated={isAuthenticated}>
               <App />

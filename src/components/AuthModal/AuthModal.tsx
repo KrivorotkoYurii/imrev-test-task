@@ -43,7 +43,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
       if (response.ok && data.success) {
         login(data.result.access_token);
-        navigate('/');
+        navigate('/home');
         onClose();
       } else {
         setError(data.message || 'Невірний логін чи пароль');
