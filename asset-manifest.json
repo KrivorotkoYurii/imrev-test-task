@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/imrev-test-task/static/css/main.42aaa5a7.css",
-    "main.js": "/imrev-test-task/static/js/main.46fc3118.js",
+    "main.js": "/imrev-test-task/static/js/main.22a2c29f.js",
     "static/media/page-not-found.png": "/imrev-test-task/static/media/page-not-found.6f5b123471bc09721371.png",
     "index.html": "/imrev-test-task/index.html",
     "main.42aaa5a7.css.map": "/imrev-test-task/static/css/main.42aaa5a7.css.map",
-    "main.46fc3118.js.map": "/imrev-test-task/static/js/main.46fc3118.js.map"
+    "main.22a2c29f.js.map": "/imrev-test-task/static/js/main.22a2c29f.js.map"
   },
   "entrypoints": [
     "static/css/main.42aaa5a7.css",
-    "static/js/main.46fc3118.js"
+    "static/js/main.22a2c29f.js"
   ]
 }
